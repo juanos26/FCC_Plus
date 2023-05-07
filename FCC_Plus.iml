@@ -9,5 +9,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="seleniumhq.selenium.java" level="project" />
     <orderEntry type="library" name="seleniumhq.selenium.chrome.driver" level="project" />
+    <orderEntry type="library" name="seleniumhq.selenium.firefox.driver" level="project" />
+    <orderEntry type="library" name="seleniumhq.selenium.edge.driver" level="project" />
+    <orderEntry type="library" name="seleniumhq.selenium.safari.driver" level="project" />
   </component>
 </module>
