@@ -12,5 +12,11 @@
     <orderEntry type="library" name="seleniumhq.selenium.firefox.driver" level="project" />
     <orderEntry type="library" name="seleniumhq.selenium.edge.driver" level="project" />
     <orderEntry type="library" name="seleniumhq.selenium.safari.driver" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.base" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.graphics" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.controls" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.fxml" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.media" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.web" level="project" />
   </component>
 </module>

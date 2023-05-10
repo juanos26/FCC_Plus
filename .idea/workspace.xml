@@ -4,13 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2e16554-66b2-4186-af97-c2e3c76a44b7" name="Changes" comment="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project">
+    <list default="true" id="c2e16554-66b2-4186-af97-c2e3c76a44b7" name="Changes" comment="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_graphics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_media.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20-mac-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20-mac-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20-mac-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20-mac-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-media-20-mac-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-media-20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-web-20-mac-aarch64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-web-20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FCC_Plus.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
+    "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -37,7 +65,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3530864",
     "vue.rearranger.settings.migration": "true"
@@ -54,7 +82,7 @@
       <workItem from="1682605867419" duration="1874000" />
       <workItem from="1682900559834" duration="14000" />
       <workItem from="1682900641683" duration="7000" />
-      <workItem from="1683426776301" duration="7191000" />
+      <workItem from="1683426776301" duration="12895000" />
     </task>
     <task id="LOCAL-00001" summary="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project">
       <created>1683477384863</created>
@@ -63,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683477384863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="More versions of Selenium have been added Ex: for Firefox and safari">
+      <created>1683479996486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683479996486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project" />
+    <MESSAGE value="More versions of Selenium have been added Ex: for Firefox and safari" />
+    <MESSAGE value="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching." />
   </component>
 </project>
