@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2e16554-66b2-4186-af97-c2e3c76a44b7" name="Changes" comment="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_graphics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_media.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20-mac-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20-mac-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20-mac-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20-mac-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-media-20-mac-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-media-20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-web-20-mac-aarch64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-web-20.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FCC_Plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FCC_Plus.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +49,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3530864",
+    "settings.editor.selected.configurable": "settings.codegpt",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,6 +65,10 @@
       <workItem from="1682900559834" duration="14000" />
       <workItem from="1682900641683" duration="7000" />
       <workItem from="1683426776301" duration="12895000" />
+      <workItem from="1683701293883" duration="37000" />
+      <workItem from="1683701338400" duration="140000" />
+      <workItem from="1683754435974" duration="59000" />
+      <workItem from="1683755586208" duration="4905000" />
     </task>
     <task id="LOCAL-00001" summary="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project">
       <created>1683477384863</created>
@@ -119,6 +105,7 @@
     <MESSAGE value="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project" />
     <MESSAGE value="More versions of Selenium have been added Ex: for Firefox and safari" />
     <MESSAGE value="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching." />
+    <MESSAGE value="Improved the first screen (TOS screen) and added a error pane if a data.txt isnt found in the programs root folder it will bring up an error using JavaFX. there are 2 buttons, one to create a new data.txt file and another to import one (Import functionality has not been added). Next steps are to improve TOS by making it just a dialog box like a Joption pane. As well as adding import functionality. lastly chnaging the structure of the setup method to run automatically when a new Setup object is made. Linux problem presits and new Windows problem regarding graphics compatability with Nvidia cards (These are first obersvations). May need different JavaFX libraries for Windows." />
     <option name="LAST_COMMIT_MESSAGE" value="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching." />
   </component>
 </project>
