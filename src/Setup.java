@@ -16,9 +16,9 @@ import java.util.Optional;
 
 public class Setup extends Application {
 
-    boolean acceptedTerms = false;
-    boolean alwaysUseSelectedFiles = false;
-    File dataFile = new File("data.txt");
+    private boolean acceptedTerms = false;
+    private boolean alwaysUseSelectedFiles = false;
+    private File dataFile = new File("data.txt");
 
 
     public static void GiveTerms() {
