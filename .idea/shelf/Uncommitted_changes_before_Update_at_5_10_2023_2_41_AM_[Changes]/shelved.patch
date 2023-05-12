@@ -1,0 +1,143 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n        Setup.GiveTerms();\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 13b1008283c5da6282e96790b711f8a67798a7f6)
++++ b/src/Main.java	(date 1683682112124)
+@@ -1,5 +1,4 @@
+ public class Main {
+     public static void main(String[] args) {
+-        Setup.GiveTerms();
+     }
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c2e16554-66b2-4186-af97-c2e3c76a44b7\" name=\"Changes\" comment=\"Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching.\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/openjfx_javafx_graphics.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/openjfx_javafx_media.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/openjfx_javafx_web.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-base-20-mac-aarch64.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-base-20.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-controls-20-mac-aarch64.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-controls-20.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-fxml-20-mac-aarch64.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-fxml-20.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-graphics-20-mac-aarch64.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-graphics-20.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-media-20-mac-aarch64.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-media-20.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-web-20-mac-aarch64.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lib/javafx-web-20.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Setup.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/FCC_Plus.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/FCC_Plus.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2P0tXY8w3q8fIHGheMxffPRXiqL\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Downloaded.Files.Path.Enabled\": \"true\",\r\n    \"Repository.Attach.Annotations\": \"false\",\r\n    \"Repository.Attach.JavaDocs\": \"false\",\r\n    \"Repository.Attach.Sources\": \"false\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Libraries\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.3530864\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c2e16554-66b2-4186-af97-c2e3c76a44b7\" name=\"Changes\" comment=\"\" />\r\n      <created>1682605866360</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1682605866360</updated>\r\n      <workItem from=\"1682605867419\" duration=\"1874000\" />\r\n      <workItem from=\"1682900559834\" duration=\"14000\" />\r\n      <workItem from=\"1682900641683\" duration=\"7000\" />\r\n      <workItem from=\"1683426776301\" duration=\"12895000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project\">\r\n      <created>1683477384863</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683477384863</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"More versions of Selenium have been added Ex: for Firefox and safari\">\r\n      <created>1683479996486</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683479996486</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project\" />\r\n    <MESSAGE value=\"More versions of Selenium have been added Ex: for Firefox and safari\" />\r\n    <MESSAGE value=\"Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 13b1008283c5da6282e96790b711f8a67798a7f6)
++++ b/.idea/workspace.xml	(date 1683700726190)
+@@ -4,41 +4,14 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c2e16554-66b2-4186-af97-c2e3c76a44b7" name="Changes" comment="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching.">
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_graphics.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_media.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_web.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20-mac-aarch64.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20-mac-aarch64.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20-mac-aarch64.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20-mac-aarch64.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-media-20-mac-aarch64.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-media-20.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-web-20-mac-aarch64.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/javafx-web-20.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
++    <list default="true" id="c2e16554-66b2-4186-af97-c2e3c76a44b7" name="Changes" comment="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/FCC_Plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FCC_Plus.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -54,18 +27,19 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "Downloaded.Files.Path.Enabled": "true",
++    "Downloaded.Files.Path.Enabled": "false",
+     "Repository.Attach.Annotations": "false",
+     "Repository.Attach.JavaDocs": "false",
+     "Repository.Attach.Sources": "false",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "WebServerToolWindowFactoryState": "false",
++    "git-widget-placeholder": "main",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+-    "project.structure.last.edited": "Libraries",
++    "project.structure.last.edited": "Project",
+     "project.structure.proportion": "0.15",
+     "project.structure.side.proportion": "0.3530864",
+     "vue.rearranger.settings.migration": "true"
+@@ -82,7 +56,7 @@
+       <workItem from="1682605867419" duration="1874000" />
+       <workItem from="1682900559834" duration="14000" />
+       <workItem from="1682900641683" duration="7000" />
+-      <workItem from="1683426776301" duration="12895000" />
++      <workItem from="1683426776301" duration="7191000" />
+     </task>
+     <task id="LOCAL-00001" summary="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project">
+       <created>1683477384863</created>
+@@ -91,14 +65,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1683477384863</updated>
+     </task>
+-    <task id="LOCAL-00002" summary="More versions of Selenium have been added Ex: for Firefox and safari">
+-      <created>1683479996486</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1683479996486</updated>
+-    </task>
+-    <option name="localTasksCounter" value="3" />
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -109,7 +76,13 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="CUSTOM_BOOLEAN_PROPERTIES">
++                <map>
++                  <entry key="Show.Git.Branches" value="true" />
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -117,8 +90,6 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project" />
+-    <MESSAGE value="More versions of Selenium have been added Ex: for Firefox and safari" />
+-    <MESSAGE value="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching." />
++    <option name="LAST_COMMIT_MESSAGE" value="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project" />
+   </component>
+ </project>
+\ No newline at end of file

@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2e16554-66b2-4186-af97-c2e3c76a44b7" name="Changes" comment="Finialized JavaFX additions and made a start screen. Arch linux facing problems with Selenium launching.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base_windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls_windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml_windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_graphics_windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_media_windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_web_windows.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base_mac.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FCC_Plus.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +48,9 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +78,7 @@
       <workItem from="1683701338400" duration="140000" />
       <workItem from="1683754435974" duration="59000" />
       <workItem from="1683755586208" duration="4905000" />
+      <workItem from="1683877815146" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="In this commit the initial (More may be added down the road for compatability)Java FX and Selenium Libraries are added to the project">
       <created>1683477384863</created>

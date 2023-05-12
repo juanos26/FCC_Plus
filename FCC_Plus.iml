@@ -17,6 +17,11 @@
     <orderEntry type="library" name="openjfx.javafx.controls" level="project" />
     <orderEntry type="library" name="openjfx.javafx.fxml" level="project" />
     <orderEntry type="library" name="openjfx.javafx.media" level="project" />
-    <orderEntry type="library" name="openjfx.javafx.web" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.web mac" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.controls windows" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.fxml windows" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.graphics windows" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.media windows" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.web windows" level="project" />
   </component>
 </module>
