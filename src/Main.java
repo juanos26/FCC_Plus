@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import src.Model.CurrentDevice;
 import src.Model.Student;
 
 public class Main {
@@ -11,10 +12,14 @@ public class Main {
 
         System.out.println("Hello world!");
 
+        /*
         WebDriverManager.firefoxdriver().setup();
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.youtube.com/");
+         */
 
+
+        new CurrentDevice();
 
     }
 }
