@@ -19,7 +19,8 @@ public class Main {
          */
 
 
-        new CurrentDevice();
+        CurrentDevice tester = new CurrentDevice();
+
 
     }
 }
