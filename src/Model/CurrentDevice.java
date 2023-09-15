@@ -3,17 +3,14 @@ package src.Model;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.prefs.Preferences;
 
 public class CurrentDevice {
     private String OS;
     private int[] resolution;
     private int resolutionHeight;
-    private String chosenBrowser;
+    private String chosenBrowser = "Chrome";
     private boolean darkMode = false;
-    private String language;
-    private int timeZone;
+    private String language = "English";
 
     public CurrentDevice() {
         this.OS = getCurrentOS();

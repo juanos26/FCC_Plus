@@ -1,26 +1,15 @@
 package src;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebElement;
 import src.Model.CurrentDevice;
-import src.Model.Student;
+import src.Service.BlackboardService;
 
 public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
-
-        /*
-        WebDriverManager.firefoxdriver().setup();
-        WebDriver driver = new FirefoxDriver();
-        driver.get("https://www.youtube.com/");
-         */
-
-
         CurrentDevice tester = new CurrentDevice();
-
+        BlackboardService testing = new BlackboardService("firefox");
 
     }
 }
