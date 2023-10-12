@@ -33,7 +33,6 @@ public class BlackboardService {
       ClickID("idSIButton9", driver);
       Wait(2000);
       ClickID("idBtn_Back", driver);
-      driver.findElement(By.linkText("My Grades")).click();
 
 
 
@@ -41,6 +40,10 @@ public class BlackboardService {
 
     private void GoBackToDashboard(){
         driver.get("https://frederick.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1");
+    }
+
+    private void GoToGrades(){
+        driver.get("https://frederick.blackboard.com/webapps/bb-social-learning-BB609f3985beb5e/execute/mybb?cmd=display&toolId=MyGradesOnMyBb_____MyGradesTool&extraParams=override_stream=mygrades");
     }
     private WebDriver WhatDriver(String browser){
       if (browser.equals("firefox")){
